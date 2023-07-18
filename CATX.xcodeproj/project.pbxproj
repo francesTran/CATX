@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2D3B412A6721C2001F3A20 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2D3B402A6721C2001F3A20 /* SecondView.swift */; };
 		BD8783DD2A66D67F00117111 /* CATXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8783DC2A66D67F00117111 /* CATXApp.swift */; };
 		BD8783DF2A66D67F00117111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8783DE2A66D67F00117111 /* ContentView.swift */; };
 		BD8783E12A66D68200117111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8783E02A66D68200117111 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD2D3B402A6721C2001F3A20 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		BD8783D92A66D67F00117111 /* CATX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8783DC2A66D67F00117111 /* CATXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATXApp.swift; sourceTree = "<group>"; };
 		BD8783DE2A66D67F00117111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				BD8783DC2A66D67F00117111 /* CATXApp.swift */,
 				BD8783DE2A66D67F00117111 /* ContentView.swift */,
+				BD2D3B402A6721C2001F3A20 /* SecondView.swift */,
 				BD8783E02A66D68200117111 /* Assets.xcassets */,
 				BD8783E22A66D68200117111 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD2D3B412A6721C2001F3A20 /* SecondView.swift in Sources */,
 				BD8783DF2A66D67F00117111 /* ContentView.swift in Sources */,
 				BD8783DD2A66D67F00117111 /* CATXApp.swift in Sources */,
 			);
