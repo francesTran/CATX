@@ -10,10 +10,12 @@ import SwiftUI
 struct SecondView: View {
     var body: some View {
         VStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Text("Austin Map")
             Image("AustinMap")
-            
-            
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fill)
+                
+  
             
         }
         
