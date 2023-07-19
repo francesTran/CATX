@@ -14,7 +14,7 @@ struct SecondView: View {
     var body: some View {
         NavigationStack{
             ZStack {
-                ViewThatFits(in: /*@START_MENU_TOKEN@*/.vertical/*@END_MENU_TOKEN@*/) {
+                ViewThatFits(in: .vertical) {
                     Image("AustinMap")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fill)
@@ -27,16 +27,13 @@ struct SecondView: View {
                             .frame(width: 100, height: 100)
                     }
                     NavigationLink("", destination: caritasOfAustin(), isActive: $isPresentingCOA)
-                    }
                     Button(action: {isPresentingMLAF = true}) {
                         Image("PinRed")
                             .resizable(capInsets: EdgeInsets())
                             .frame(width: 100, height: 100)
                     }
                     NavigationLink("", destination: caritasOfAustin(), isActive: $isPresentingMLAF)
-                
-                
-                
+                    
                     NavigationLink(destination:rainforestPartnership() ) {
                         Text("Rainforest Partnership")
                             .background(Color.green)
@@ -70,7 +67,7 @@ struct SecondView: View {
                 }
             }
             .toolbar {
-            HomeToolbar()
+                HomeToolbar()
             }
             .toolbarTitleMenu {
                 Button("A") {
@@ -79,19 +76,19 @@ struct SecondView: View {
                 Button("B") {
                     print("delete document")
                 }.buttonStyle(.borderedProminent)
-                    
+                
                 Image(systemName: "bus")
             }
             .toolbarColorScheme(.light, for: .navigationBar)
             .navigationBarTitleDisplayMode(.inline)
             .navigationTitle("Austin Map")
             .padding(.all)
+        }
     }
 }
-
 struct SecondView_Previews: PreviewProvider {
-    static var previews: some View {
-        SecondView()
+        static var previews: some View {
+            SecondView()
     }
 }
 
