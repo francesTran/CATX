@@ -7,20 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD23A4282A6836680003250A /* caritasOfAustin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23A4272A6836680003250A /* caritasOfAustin.swift */; };
 		BD2D3B412A6721C2001F3A20 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2D3B402A6721C2001F3A20 /* SecondView.swift */; };
 		BD8783DD2A66D67F00117111 /* CATXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8783DC2A66D67F00117111 /* CATXApp.swift */; };
 		BD8783DF2A66D67F00117111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8783DE2A66D67F00117111 /* ContentView.swift */; };
 		BD8783E12A66D68200117111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8783E02A66D68200117111 /* Assets.xcassets */; };
 		BD8783E42A66D68200117111 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8783E32A66D68200117111 /* Preview Assets.xcassets */; };
+		BDFE79782A68424700057068 /* mobileLoavesAndFishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE79772A68424700057068 /* mobileLoavesAndFishes.swift */; };
+		BDFE797A2A68436200057068 /* rainforestPartnership.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE79792A68436200057068 /* rainforestPartnership.swift */; };
+		BDFE797C2A68444D00057068 /* keepAustinBeautiful.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE797B2A68444D00057068 /* keepAustinBeautiful.swift */; };
+		BDFE797E2A6846E100057068 /* keepAustinFed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE797D2A6846E100057068 /* keepAustinFed.swift */; };
+		BDFE79802A68473700057068 /* centralTexasFoodBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE797F2A68473700057068 /* centralTexasFoodBank.swift */; };
+		BDFE79822A68477F00057068 /* outYouth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE79812A68477F00057068 /* outYouth.swift */; };
+		BDFE79842A6847C600057068 /* transgenderEducationNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE79832A6847C600057068 /* transgenderEducationNet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD23A4272A6836680003250A /* caritasOfAustin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caritasOfAustin.swift; sourceTree = "<group>"; };
 		BD2D3B402A6721C2001F3A20 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		BD8783D92A66D67F00117111 /* CATX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8783DC2A66D67F00117111 /* CATXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATXApp.swift; sourceTree = "<group>"; };
 		BD8783DE2A66D67F00117111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD8783E02A66D68200117111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD8783E32A66D68200117111 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDFE79772A68424700057068 /* mobileLoavesAndFishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileLoavesAndFishes.swift; sourceTree = "<group>"; };
+		BDFE79792A68436200057068 /* rainforestPartnership.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainforestPartnership.swift; sourceTree = "<group>"; };
+		BDFE797B2A68444D00057068 /* keepAustinBeautiful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keepAustinBeautiful.swift; sourceTree = "<group>"; };
+		BDFE797D2A6846E100057068 /* keepAustinFed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keepAustinFed.swift; sourceTree = "<group>"; };
+		BDFE797F2A68473700057068 /* centralTexasFoodBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralTexasFoodBank.swift; sourceTree = "<group>"; };
+		BDFE79812A68477F00057068 /* outYouth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = outYouth.swift; sourceTree = "<group>"; };
+		BDFE79832A6847C600057068 /* transgenderEducationNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transgenderEducationNet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,14 @@
 				BD8783DC2A66D67F00117111 /* CATXApp.swift */,
 				BD8783DE2A66D67F00117111 /* ContentView.swift */,
 				BD2D3B402A6721C2001F3A20 /* SecondView.swift */,
+				BDFE79832A6847C600057068 /* transgenderEducationNet.swift */,
+				BDFE79812A68477F00057068 /* outYouth.swift */,
+				BDFE797F2A68473700057068 /* centralTexasFoodBank.swift */,
+				BDFE797D2A6846E100057068 /* keepAustinFed.swift */,
+				BDFE797B2A68444D00057068 /* keepAustinBeautiful.swift */,
+				BDFE79772A68424700057068 /* mobileLoavesAndFishes.swift */,
+				BD23A4272A6836680003250A /* caritasOfAustin.swift */,
+				BDFE79792A68436200057068 /* rainforestPartnership.swift */,
 				BD8783E02A66D68200117111 /* Assets.xcassets */,
 				BD8783E22A66D68200117111 /* Preview Content */,
 			);
@@ -140,9 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDFE797C2A68444D00057068 /* keepAustinBeautiful.swift in Sources */,
+				BD23A4282A6836680003250A /* caritasOfAustin.swift in Sources */,
+				BDFE79822A68477F00057068 /* outYouth.swift in Sources */,
+				BDFE79782A68424700057068 /* mobileLoavesAndFishes.swift in Sources */,
 				BD2D3B412A6721C2001F3A20 /* SecondView.swift in Sources */,
+				BDFE79842A6847C600057068 /* transgenderEducationNet.swift in Sources */,
+				BDFE797A2A68436200057068 /* rainforestPartnership.swift in Sources */,
 				BD8783DF2A66D67F00117111 /* ContentView.swift in Sources */,
+				BDFE797E2A6846E100057068 /* keepAustinFed.swift in Sources */,
 				BD8783DD2A66D67F00117111 /* CATXApp.swift in Sources */,
+				BDFE79802A68473700057068 /* centralTexasFoodBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

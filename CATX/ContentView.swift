@@ -42,9 +42,24 @@ struct ContentView: View {
         }
     
     
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
-        }
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
+}
 
+struct HomeToolbar: ToolbarContent {
+  var body: some ToolbarContent {
+    ToolbarItem(placement: .navigationBarTrailing) {
+      Text("Home")
+    }
+    ToolbarItem(placement: .principal) {
+      Image(systemName: "bus")
+    }
+    ToolbarItem(placement: .bottomBar) {
+      Button("Save") {
+        print("delete document")
+      }.buttonStyle(.borderedProminent)
+    }
+  }
+}

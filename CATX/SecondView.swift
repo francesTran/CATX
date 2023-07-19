@@ -5,25 +5,94 @@
 //  Created by Scholar on 7/18/23.
 //
 
+
 import SwiftUI
 
 struct SecondView: View {
     var body: some View {
-        VStack {
-            Text("Austin Map")
-            Image("AustinMap")
-                .resizable(resizingMode: .stretch)
-                .aspectRatio(contentMode: .fill)
-                
-  
-            
+        NavigationStack{
+            ZStack {
+                ViewThatFits(in: /*@START_MENU_TOKEN@*/.vertical/*@END_MENU_TOKEN@*/) {
+                    Image("AustinMap")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fill)
+                        .padding(.all)
+                }
+                VStack {
+                    Button(action: {print("Login Button Click")}) {
+                        Image("Pin")
+                            .resizable(capInsets: EdgeInsets())
+                            .frame(width: 100, height: 100)
+                    }
+                    NavigationLink(destination:caritasOfAustin() ) {
+                        Text("Caritas Of Austin")
+                            .background(Color.red)
+                            .foregroundColor(.white)
+                            .padding()
+                        NavigationLink(destination:mobileLoavesAndFishes() ) {
+                            Text("Mobile Loaves and Fishes")
+                                .background(Color.red)
+                                .foregroundColor(.white)
+                            NavigationLink(destination:rainforestPartnership() ) {
+                                Text("Rainforest Partnership")
+                                    .background(Color.green)
+                                    .foregroundColor(.white)
+                            }
+                            NavigationLink(destination:keepAustinBeautiful() ) {
+                                Text("Keep Austin Beautiful")
+                                    .background(Color.green)
+                                    .foregroundColor(.white)
+                            }
+                            NavigationLink(destination:keepAustinFed() ) {
+                                Text("Keep Austin Fed")
+                                    .background(Color.yellow)
+                                    .foregroundColor(.white)
+                            }
+                            NavigationLink(destination:centralTexasFoodBank() ) {
+                                Text("Central Texas Food Bank")
+                                    .background(Color.yellow)
+                                    .foregroundColor(.white)
+                            }
+                            NavigationLink(destination:outYouth() ) {
+                                Text("Out Youth")
+                                    .background(Color.blue)
+                                    .foregroundColor(.white)
+                            }
+                            NavigationLink(destination:transgenderEducationNet() ) {
+                                Text("Transgender Education Network of Texas")
+                                    .background(Color.blue)
+                                    .foregroundColor(.white)
+                            }
+                        }
+                    }
+                }
+                .toolbar {
+                    HomeToolbar()
+                }
+                .toolbarTitleMenu {
+                    Button("A") {
+                        print("save document")
+                    }.buttonStyle(.borderedProminent)
+                    Button("B") {
+                        print("delete document")
+                    }.buttonStyle(.borderedProminent)
+                    
+                    Image(systemName: "bus")
+                }
+                .toolbarColorScheme(.light, for: .navigationBar)
+                .navigationBarTitleDisplayMode(.inline)
+                .navigationTitle("Austin Map")
+                .padding(.all)
+            }
         }
-        
-    }
+}
+        struct SecondView_Previews: PreviewProvider {
+            static var previews: some View {
+                SecondView()
+            }
+        }
 }
 
-struct SecondView_Previews: PreviewProvider {
-    static var previews: some View {
-        SecondView()
-    }
-}
+
+    
+
