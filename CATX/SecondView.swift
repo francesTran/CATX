@@ -33,6 +33,7 @@ struct SecondView: View {
                 }
                 NavigationLink(" ", destination: lgbtqView(), isActive: $isPresentingLGBTQ)
             }
+            .navigationTitle("Categories")
             .toolbar {
                 HomeToolbar()
             }
@@ -48,7 +49,6 @@ struct SecondView: View {
             }
             .toolbarColorScheme(.light, for: .navigationBar)
             .navigationBarTitleDisplayMode(.inline)
-            .navigationTitle("Austin Map")
             .padding(.all)
         }
     }

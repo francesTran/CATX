@@ -18,16 +18,16 @@ struct ContentView: View {
                     .fontWeight(.bold)
                 Button(action: { showNextPage = true }) {
                     label: do {
-                        Image("aTX2")
+                        Image("CATX")
                     }
                     NavigationLink("", destination:  SecondView(), isActive: $showNextPage)
                 }
-                Text("click on Austin to start")
-                    .foregroundColor(Color.blue)
-                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 Text("In Austin?")
                     .font(.title)
                     .fontWeight(.bold)
+                Text("(Click on Austin to start!)")
+                    .foregroundColor(Color.blue)
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             }
         }
     }
