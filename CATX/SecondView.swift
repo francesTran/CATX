@@ -10,6 +10,7 @@ import SwiftUI
 
 struct SecondView: View {
     @State var isPresentingCOA = false
+    @State var isPresentingMLAF = false
     var body: some View {
         NavigationStack{
             ZStack {
@@ -21,22 +22,21 @@ struct SecondView: View {
                 }
                 VStack {
                     Button(action: {isPresentingCOA = true}) {
-                        Image("Pin")
+                        Image("PinRed")
                             .resizable(capInsets: EdgeInsets())
                             .frame(width: 100, height: 100)
                     }
                     NavigationLink("", destination: caritasOfAustin(), isActive: $isPresentingCOA)
-                    //NavigationLink(destination:caritasOfAustin() ) {
-                        //Text("Caritas Of Austin")
-                            //.background(Color.red)
-                            //.foregroundColor(.white)
-                            //.padding()
                     }
-                    NavigationLink(destination:mobileLoavesAndFishes() ) {
-                        Text("Mobile Loaves and Fishes")
-                            .background(Color.red)
-                            .foregroundColor(.white)
+                    Button(action: {isPresentingMLAF = true}) {
+                        Image("PinRed")
+                            .resizable(capInsets: EdgeInsets())
+                            .frame(width: 100, height: 100)
                     }
+                    NavigationLink("", destination: caritasOfAustin(), isActive: $isPresentingMLAF)
+                
+                
+                
                     NavigationLink(destination:rainforestPartnership() ) {
                         Text("Rainforest Partnership")
                             .background(Color.green)
