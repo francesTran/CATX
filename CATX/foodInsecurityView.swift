@@ -35,7 +35,9 @@ struct foodInsecurityView: View {
                     NavigationLink(" ", destination: centralTexasFoodBank(), isActive: $isPresentingCTFB)
                     
                 }
+                .navigationTitle("Food Insecurity")
             }
+            
         }
     }
 }

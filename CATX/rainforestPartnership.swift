@@ -9,7 +9,9 @@ import SwiftUI
 
 struct rainforestPartnership: View {
     var body: some View {
-        Text("Rainforest Partnership")
+        ScrollView {
+            Text("Rainforest Partnership")
+        }
     }
 }
 

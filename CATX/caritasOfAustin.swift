@@ -9,7 +9,9 @@ import SwiftUI
 
 struct caritasOfAustin: View {
     var body: some View {
-        Text("Caritas of Austin")
+        ScrollView {
+            Text("Caritas of Austin")
+        }
     }
 }
 

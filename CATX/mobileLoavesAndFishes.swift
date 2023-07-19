@@ -9,7 +9,9 @@ import SwiftUI
 
 struct mobileLoavesAndFishes: View {
     var body: some View {
-        Text("Mobile Loaves and Fishes")
+        ScrollView {
+            Text("Mobile Loaves and Fishes")
+        }
     }
 }
 

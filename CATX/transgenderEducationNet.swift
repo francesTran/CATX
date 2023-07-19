@@ -9,7 +9,9 @@ import SwiftUI
 
 struct transgenderEducationNet: View {
     var body: some View {
-        Text("Transgender Education Network of Texas")
+        ScrollView {
+            Text("Transgender Education Network of Texas")
+        }
     }
 }
 

@@ -34,6 +34,7 @@ struct lgbtqView: View {
                     }
                     NavigationLink(" ", destination: transgenderEducationNet(), isActive: $isPresentingTEN)
                 }
+                .navigationTitle("LGBTQ")
             }
         }
     }

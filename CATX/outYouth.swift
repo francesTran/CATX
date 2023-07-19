@@ -9,7 +9,10 @@ import SwiftUI
 
 struct outYouth: View {
     var body: some View {
-        Text("Out Youth")
+        ScrollView {
+            Text("Out Youth")
+        }
+        
     }
 }
 

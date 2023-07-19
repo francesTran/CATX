@@ -1,5 +1,5 @@
 //
-//  environmentView.swift
+//  homelessnessView.swift
 //  CATX
 //
 //  Created by Scholar on 7/19/23.
@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct environmentView: View {
-    @State var isPresentingRP = false
-    @State var isPresentingKAB = false
+struct homelessnessView: View {
+    @State var isPresentingCOA = false
+    @State var isPresentingMLAF = false
     var body: some View {
         NavigationStack{
             ZStack {
@@ -20,29 +20,28 @@ struct environmentView: View {
                         .padding(.all)
                 }
                 VStack {
-                    
-                    Button(action: {isPresentingRP = true}) {
-                        Image("PinGreen")
+                    Button(action: {isPresentingCOA = true}) {
+                        Image("PinRed")
                             .resizable(capInsets: EdgeInsets())
                             .frame(width: 100, height: 100)
                     }
-                    NavigationLink(" ", destination: rainforestPartnership(), isActive: $isPresentingRP)
+                    NavigationLink(" ", destination: caritasOfAustin(), isActive: $isPresentingCOA)
                     
-                    Button(action: {isPresentingKAB = true}) {
-                        Image("PinGreen")
+                    Button(action: {isPresentingMLAF = true}) {
+                        Image("PinRed")
                             .resizable(capInsets: EdgeInsets())
                             .frame(width: 100, height: 100)
                     }
-                    NavigationLink(" ", destination: keepAustinBeautiful(), isActive: $isPresentingKAB)
+                    NavigationLink(" ", destination: mobileLoavesAndFishes(), isActive: $isPresentingMLAF)
                 }
+                .navigationTitle("Homelessness")
             }
-            .navigationTitle("Environment")
         }
     }
 }
 
-struct environmentView_Previews: PreviewProvider {
+struct homelessnessView_Previews: PreviewProvider {
     static var previews: some View {
-        environmentView()
+        homelessnessView()
     }
 }

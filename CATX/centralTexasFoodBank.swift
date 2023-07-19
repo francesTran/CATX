@@ -9,7 +9,10 @@ import SwiftUI
 
 struct centralTexasFoodBank: View {
     var body: some View {
-        Text("Central Texas Bank")
+        ScrollView {
+            Text("Central Texas Bank")
+        }
+        
     }
 }
 
