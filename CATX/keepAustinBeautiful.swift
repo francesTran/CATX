@@ -11,6 +11,19 @@ struct keepAustinBeautiful: View {
     var body: some View {
         ScrollView {
             Text("Keep Austin Beautiful")
+                .padding(.all)
+            Text("About Us")
+                .padding(.all)
+            Text("Contact Info")
+                .padding(.all)
+            Text("Get Involved!")
+                .padding(.all)
+            Text("Volunteer")
+                .padding(.all)
+            Text("Events")
+                .padding(.all)
+            Text("Donate")
+                .padding(.all)
         }
     }
 }

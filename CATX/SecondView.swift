@@ -13,6 +13,8 @@ struct SecondView: View {
     @State var isPresentingEnvironment = false
     @State var isPresentingFoodInsecurity = false
     @State var isPresentingLGBTQ = false
+    @State var missionStatement = false
+    @State var contactInfo = false
     var body: some View {
         ZStack {
             VStack {
@@ -38,13 +40,14 @@ struct SecondView: View {
                 HomeToolbar()
             }
             .toolbarTitleMenu {
-                Button("A") {
-                    print("save document")
+                Button(action: {missionStatement = true}) {
+                    Text("OurMission")
                 }.buttonStyle(.borderedProminent)
-                Button("B") {
-                    print("delete document")
+                NavigationLink(" ", destination: OurMission(), isActive: $missionStatement)
+                Button(action: {contactInfo = true}) {
+                    Text("Contact")
                 }.buttonStyle(.borderedProminent)
-                
+                NavigationLink(" ", destination: ContactInfo(), isActive: $contactInfo)
                 Image(systemName: "bus")
             }
             .toolbarColorScheme(.light, for: .navigationBar)

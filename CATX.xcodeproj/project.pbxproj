@@ -17,6 +17,8 @@
 		BDD06DC72A6869DC006C5F97 /* environmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD06DC62A6869DC006C5F97 /* environmentView.swift */; };
 		BDD06DCB2A686A03006C5F97 /* foodInsecurityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD06DCA2A686A03006C5F97 /* foodInsecurityView.swift */; };
 		BDD06DCD2A686A99006C5F97 /* lgbtqView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD06DCC2A686A99006C5F97 /* lgbtqView.swift */; };
+		BDD06DCF2A688175006C5F97 /* OurMission.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD06DCE2A688175006C5F97 /* OurMission.swift */; };
+		BDD06DD12A688187006C5F97 /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD06DD02A688187006C5F97 /* ContactInfo.swift */; };
 		BDFE79782A68424700057068 /* mobileLoavesAndFishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE79772A68424700057068 /* mobileLoavesAndFishes.swift */; };
 		BDFE797A2A68436200057068 /* rainforestPartnership.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE79792A68436200057068 /* rainforestPartnership.swift */; };
 		BDFE797C2A68444D00057068 /* keepAustinBeautiful.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE797B2A68444D00057068 /* keepAustinBeautiful.swift */; };
@@ -38,6 +40,8 @@
 		BDD06DC62A6869DC006C5F97 /* environmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = environmentView.swift; sourceTree = "<group>"; };
 		BDD06DCA2A686A03006C5F97 /* foodInsecurityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodInsecurityView.swift; sourceTree = "<group>"; };
 		BDD06DCC2A686A99006C5F97 /* lgbtqView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lgbtqView.swift; sourceTree = "<group>"; };
+		BDD06DCE2A688175006C5F97 /* OurMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurMission.swift; sourceTree = "<group>"; };
+		BDD06DD02A688187006C5F97 /* ContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
 		BDFE79772A68424700057068 /* mobileLoavesAndFishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileLoavesAndFishes.swift; sourceTree = "<group>"; };
 		BDFE79792A68436200057068 /* rainforestPartnership.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainforestPartnership.swift; sourceTree = "<group>"; };
 		BDFE797B2A68444D00057068 /* keepAustinBeautiful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keepAustinBeautiful.swift; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 				BD8783DC2A66D67F00117111 /* CATXApp.swift */,
 				BD8783DE2A66D67F00117111 /* ContentView.swift */,
 				BD2D3B402A6721C2001F3A20 /* SecondView.swift */,
+				BDD06DCE2A688175006C5F97 /* OurMission.swift */,
+				BDD06DD02A688187006C5F97 /* ContactInfo.swift */,
 				BDD06DC42A6869C4006C5F97 /* homelessnessView.swift */,
 				BDD06DC62A6869DC006C5F97 /* environmentView.swift */,
 				BDD06DCA2A686A03006C5F97 /* foodInsecurityView.swift */,
@@ -179,6 +185,7 @@
 				BDD06DC72A6869DC006C5F97 /* environmentView.swift in Sources */,
 				BDFE797C2A68444D00057068 /* keepAustinBeautiful.swift in Sources */,
 				BD23A4282A6836680003250A /* caritasOfAustin.swift in Sources */,
+				BDD06DCF2A688175006C5F97 /* OurMission.swift in Sources */,
 				BDD06DCD2A686A99006C5F97 /* lgbtqView.swift in Sources */,
 				BDFE79822A68477F00057068 /* outYouth.swift in Sources */,
 				BDFE79782A68424700057068 /* mobileLoavesAndFishes.swift in Sources */,
@@ -187,6 +194,7 @@
 				BDFE79842A6847C600057068 /* transgenderEducationNet.swift in Sources */,
 				BDFE797A2A68436200057068 /* rainforestPartnership.swift in Sources */,
 				BD8783DF2A66D67F00117111 /* ContentView.swift in Sources */,
+				BDD06DD12A688187006C5F97 /* ContactInfo.swift in Sources */,
 				BDFE797E2A6846E100057068 /* keepAustinFed.swift in Sources */,
 				BDD06DC52A6869C4006C5F97 /* homelessnessView.swift in Sources */,
 				BD8783DD2A66D67F00117111 /* CATXApp.swift in Sources */,
