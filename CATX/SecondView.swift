@@ -9,62 +9,29 @@
 import SwiftUI
 
 struct SecondView: View {
-    @State var isPresentingCOA = false
-    @State var isPresentingMLAF = false
+    @State var isPresentingHomelessness = false
+    @State var isPresentingEnvironment = false
+    @State var isPresentingFoodInsecurity = false
+    @State var isPresentingLGBTQ = false
     var body: some View {
-        NavigationStack{
-            ZStack {
-                ViewThatFits(in: .vertical) {
-                    Image("AustinMap")
-                        .resizable(resizingMode: .stretch)
-                        .aspectRatio(contentMode: .fill)
-                        .padding(.all)
+        ZStack {
+            VStack {
+                Button(action: {isPresentingHomelessness = true}) {
+                    Text("Homelessness")
                 }
-                VStack {
-                    Button(action: {isPresentingCOA = true}) {
-                        Image("PinRed")
-                            .resizable(capInsets: EdgeInsets())
-                            .frame(width: 100, height: 100)
-                    }
-                    NavigationLink("", destination: caritasOfAustin(), isActive: $isPresentingCOA)
-                    Button(action: {isPresentingMLAF = true}) {
-                        Image("PinRed")
-                            .resizable(capInsets: EdgeInsets())
-                            .frame(width: 100, height: 100)
-                    }
-                    NavigationLink("", destination: caritasOfAustin(), isActive: $isPresentingMLAF)
-                    
-                    NavigationLink(destination:rainforestPartnership() ) {
-                        Text("Rainforest Partnership")
-                            .background(Color.green)
-                            .foregroundColor(.white)
-                    }
-                    NavigationLink(destination:keepAustinBeautiful() ) {
-                        Text("Keep Austin Beautiful")
-                            .background(Color.green)
-                            .foregroundColor(.white)
-                    }
-                    NavigationLink(destination:keepAustinFed() ) {
-                        Text("Keep Austin Fed")
-                            .background(Color.yellow)
-                            .foregroundColor(.white)
-                    }
-                    NavigationLink(destination:centralTexasFoodBank() ) {
-                        Text("Central Texas Food Bank")
-                            .background(Color.yellow)
-                            .foregroundColor(.white)
-                    }
-                    NavigationLink(destination:outYouth() ) {
-                        Text("Out Youth")
-                            .background(Color.blue)
-                            .foregroundColor(.white)
-                    }
-                    NavigationLink(destination:transgenderEducationNet() ) {
-                        Text("Transgender Education Network of Texas")
-                            .background(Color.blue)
-                            .foregroundColor(.white)
-                    }
+                NavigationLink(" ", destination: homelessnessView(), isActive: $isPresentingHomelessness)
+                Button(action: {isPresentingEnvironment = true}) {
+                    Text("Environment")
                 }
+                NavigationLink(" ", destination: environmentView(), isActive: $isPresentingEnvironment)
+                Button(action: {isPresentingFoodInsecurity = true}) {
+                    Text("Food Insecurity")
+                }
+                NavigationLink(" ", destination: foodInsecurityView(), isActive: $isPresentingFoodInsecurity)
+                Button(action: {isPresentingLGBTQ = true}) {
+                    Text("LGBTQ")
+                }
+                NavigationLink(" ", destination: lgbtqView(), isActive: $isPresentingLGBTQ)
             }
             .toolbar {
                 HomeToolbar()
