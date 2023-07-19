@@ -39,16 +39,11 @@ struct SecondView: View {
             .toolbar {
                 HomeToolbar()
             }
+            
             .toolbarTitleMenu {
-                Button(action: {missionStatement = true}) {
-                    Text("OurMission")
-                }.buttonStyle(.borderedProminent)
-                NavigationLink(" ", destination: OurMission(), isActive: $missionStatement)
-                Button(action: {contactInfo = true}) {
-                    Text("Contact")
-                }.buttonStyle(.borderedProminent)
-                NavigationLink(" ", destination: ContactInfo(), isActive: $contactInfo)
-                Image(systemName: "bus")
+                NavigationLink("Our Mission", destination: OurMission(), isActive: $missionStatement)
+                NavigationLink("Contact", destination: ContactInfo(), isActive: $contactInfo)
+                Image(systemName: "list")
             }
             .toolbarColorScheme(.light, for: .navigationBar)
             .navigationBarTitleDisplayMode(.inline)

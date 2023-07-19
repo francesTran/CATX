@@ -42,11 +42,11 @@ struct ContentView_Previews: PreviewProvider {
 
 struct HomeToolbar: ToolbarContent {
   var body: some ToolbarContent {
-    ToolbarItem(placement: .navigationBarTrailing) {
-      Text("Home")
-    }
     ToolbarItem(placement: .principal) {
-      Image(systemName: "bus")
+      Text("More")
+    }
+    ToolbarItem(placement: .navigationBarTrailing) {
+      Image(systemName: "car")
     }
     ToolbarItem(placement: .bottomBar) {
       Button("Save") {
