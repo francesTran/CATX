@@ -16,30 +16,22 @@ struct ContentView: View {
                 Text("What's Tossin'")
                     .font(.title)
                     .fontWeight(.bold)
-                
                 Button(action: { showNextPage = true }) {
-                label: do {
-                    Image("aTX2")
+                    label: do {
+                        Image("aTX2")
+                    }
+                    NavigationLink("", destination:  SecondView(), isActive: $showNextPage)
                 }
-                   
-                    
-                
-                            NavigationLink("", destination:  SecondView(), isActive: $showNextPage)
-
-                            }
                 Text("click on Austin to start")
                     .foregroundColor(Color.blue)
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                
                 Text("In Austin?")
                     .font(.title)
                     .fontWeight(.bold)
-                        }
-                }
-                
             }
-           
         }
+    }
+}
     
     
 struct ContentView_Previews: PreviewProvider {
