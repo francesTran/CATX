@@ -14,11 +14,12 @@ struct OurMission: View {
                 .ignoresSafeArea()
             VStack {
                 Text("Find opportunities to give back to your Austin community with our app CATX, or Change Austin Texas. Explore locations of different organizations that are making a difference near you. CATX connects you to volunteering and donation sites with the push of a button.")
-                    .font(.body)
-                    .fontWeight(.medium)
-                    .foregroundColor(Color.white)
+                    
+                    .fontWeight(.heavy)
+                    
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)
+                    .foregroundColor(/*@START_MENU_TOKEN@*/Color(hue: 0.172, saturation: 0.404, brightness: 0.72)/*@END_MENU_TOKEN@*/)
                 
             }
         }

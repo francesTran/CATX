@@ -24,38 +24,52 @@ struct SecondView: View {
                     .font(.custom("Oswald-Regular", size: 36))
                     .font(.largeTitle)
                     .fontWeight(.heavy)
-                    .foregroundColor(Color.white)
+                    
+                    .foregroundColor(Color(hue: 0.099, saturation: 0.686, brightness: 0.617))
                     .multilineTextAlignment(.center)
+                    .accentColor(/*@START_MENU_TOKEN@*/Color(hue: 1.0, saturation: 0.54, brightness: 0.778)/*@END_MENU_TOKEN@*/)
                 Text("Choose an issue to improve:")
                     .font(.custom("FiraSans-Regular", size: 22))
+                    .foregroundColor(/*@START_MENU_TOKEN@*/Color(hue: 0.091, saturation: 0.462, brightness: 0.877)/*@END_MENU_TOKEN@*/)
                     .font(.title2)
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
                     .padding()
+                    
                 Button(action: {isPresentingHomelessness = true}) {
-                    Text("Homelessness")
+                    Text(" Homelessness     ")
                         .fontWeight(.heavy)
-                        .padding(.top)
+                        .background(Color(red: 1.0, green: 0.0, blue: 0.0, opacity: 1.0))
+                        
+                        .foregroundColor(Color.white)
+                        .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
                 }
                 NavigationLink(" ", destination: homelessnessView(), isActive: $isPresentingHomelessness)
                 Button(action: {isPresentingEnvironment = true}) {
-                    Text("Environment")
+                    Text(" Environment    ")
                         .fontWeight(.heavy)
-                        .accentColor(/*@START_MENU_TOKEN@*/Color(red: 0.599, green: 0.826, blue: 0.559)/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(Color.white)
+                        .background(/*@START_MENU_TOKEN@*/Color(red: 0.599, green: 0.826, blue: 0.559)/*@END_MENU_TOKEN@*/)
+                        .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
+                        
                 }
                 NavigationLink(" ", destination: environmentView(), isActive: $isPresentingEnvironment)
                 Button(action: {isPresentingFoodInsecurity = true}) {
-                    Text("Food Insecurity")
+                    Text(" Food Insecurity       ")
                         .fontWeight(.heavy)
-                        .accentColor(/*@START_MENU_TOKEN@*/Color(red: 0.849, green: 0.766, blue: 0.448)/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(Color.white)
+                        .background(/*@START_MENU_TOKEN@*/Color(hue: 0.132, saturation: 0.576, brightness: 0.985)/*@END_MENU_TOKEN@*/)
+                        .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
                         
                 }
                 NavigationLink(" ", destination: foodInsecurityView(), isActive: $isPresentingFoodInsecurity)
                 Button(action: {isPresentingLGBTQ = true}) {
-                    Text("LGBTQ")
+                    Text(" LGBTQ        ")
                         .fontWeight(.heavy)
-                        .accentColor(/*@START_MENU_TOKEN@*/Color(red: 0.586, green: 0.576, blue: 0.826)/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(Color.white)
+                        .background(/*@START_MENU_TOKEN@*/Color(red: 0.586, green: 0.576, blue: 0.826)/*@END_MENU_TOKEN@*/)
+                        .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
                 }
                 NavigationLink(" ", destination: lgbtqView(), isActive: $isPresentingLGBTQ)
             }

@@ -39,6 +39,8 @@ struct homelessnessView: View {
                     NavigationLink(" ", destination: mobileLoavesAndFishes(), isActive: $isPresentingMLAF)
                 }
                 .navigationTitle("Homelessness")
+                .accentColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                
             }
         }
     }
