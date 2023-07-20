@@ -25,8 +25,8 @@ struct homelessnessView: View {
                     Button(action: {isPresentingCOA = true}) {
                         Image("PinRed")
                             .resizable(capInsets: EdgeInsets())
-                            .frame(width: 100, height: 100)                      
-                        }
+                            .frame(width: 100, height: 100)
+                            .offset(x: 50, y: 15)
                     }
                     NavigationLink(" ", destination: caritasOfAustin(), isActive: $isPresentingCOA)
                     
@@ -39,7 +39,7 @@ struct homelessnessView: View {
                     NavigationLink(" ", destination: mobileLoavesAndFishes(), isActive: $isPresentingMLAF)
                 }
                 .navigationTitle("Homelessness")
-                
+            }
         }
     }
 }

@@ -17,39 +17,45 @@ struct SecondView: View {
     @State var contactInfo = false
     var body: some View {
         ZStack {
-            Color(red: (252.0/255), green: (211.0/255), blue: (191.0/255))
+            Color(red: (243.0/255), green: (239.0/255), blue: (224.0/255))
                 .ignoresSafeArea()
             VStack(spacing: 30.0) {
-                Text("Austin needs your help! ")
+                Text("AUSTIN NEEDS YOUR HELP! ")
+                    .font(.custom("Oswald-Regular", size: 36))
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
-            
                 Text("Choose an issue to improve:")
+                    .font(.custom("FiraSans-Regular", size: 22))
                     .font(.title2)
-                    .fontWeight(.black)
+                    .fontWeight(.bold)
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
                     .padding()
                 Button(action: {isPresentingHomelessness = true}) {
                     Text("Homelessness")
                         .fontWeight(.heavy)
+                        .padding(.top)
                 }
                 NavigationLink(" ", destination: homelessnessView(), isActive: $isPresentingHomelessness)
                 Button(action: {isPresentingEnvironment = true}) {
                     Text("Environment")
                         .fontWeight(.heavy)
+                        .accentColor(/*@START_MENU_TOKEN@*/Color(red: 0.599, green: 0.826, blue: 0.559)/*@END_MENU_TOKEN@*/)
                 }
                 NavigationLink(" ", destination: environmentView(), isActive: $isPresentingEnvironment)
                 Button(action: {isPresentingFoodInsecurity = true}) {
                     Text("Food Insecurity")
                         .fontWeight(.heavy)
+                        .accentColor(/*@START_MENU_TOKEN@*/Color(red: 0.849, green: 0.766, blue: 0.448)/*@END_MENU_TOKEN@*/)
+                        
                 }
                 NavigationLink(" ", destination: foodInsecurityView(), isActive: $isPresentingFoodInsecurity)
                 Button(action: {isPresentingLGBTQ = true}) {
                     Text("LGBTQ")
                         .fontWeight(.heavy)
+                        .accentColor(/*@START_MENU_TOKEN@*/Color(red: 0.586, green: 0.576, blue: 0.826)/*@END_MENU_TOKEN@*/)
                 }
                 NavigationLink(" ", destination: lgbtqView(), isActive: $isPresentingLGBTQ)
             }

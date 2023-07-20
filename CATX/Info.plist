@@ -5,6 +5,9 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>ZenLoop-Regular.ttf</string>
+		<string>Oswald-Regular.ttf</string>
+		<string>FiraSans-Regular.ttf</string>
+		<string>FiraSans-ThinItalic.ttf</string>
 	</array>
 </dict>
 </plist>
