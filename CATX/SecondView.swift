@@ -16,8 +16,13 @@ struct SecondView: View {
     @State var missionStatement = false
     @State var contactInfo = false
     var body: some View {
-        ZStack {
-            VStack {
+        
+        VStack(spacing: 30.0) {
+            Text("What's Tossin' in Austin?")
+                .font(.largeTitle)
+                    .padding()
+                
+                
                 Button(action: {isPresentingHomelessness = true}) {
                     Text("Homelessness")
                 }
@@ -50,7 +55,7 @@ struct SecondView: View {
             .padding(.all)
         }
     }
-}
+
 struct SecondView_Previews: PreviewProvider {
         static var previews: some View {
             SecondView()

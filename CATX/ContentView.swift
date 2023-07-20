@@ -12,22 +12,20 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack {
-            VStack {
-                Text("What's Tossin'")
-                    .font(.title)
-                    .fontWeight(.bold)
-                Button(action: { showNextPage = true }) {
+            ZStack{
+                Color(red: (259/255), green: (252.0/255), blue: (224.0/255))
+                    .ignoresSafeArea()
+                VStack {
+                    
+                    Button(action: { showNextPage = true }) {
                     label: do {
-                        Image("CATX")
+                        Image("CATX2")
                     }
-                    NavigationLink("", destination:  SecondView(), isActive: $showNextPage)
+                        NavigationLink("", destination:  SecondView(), isActive: $showNextPage)
+                    }
+                    
+                    
                 }
-                Text("In Austin?")
-                    .font(.title)
-                    .fontWeight(.bold)
-                Text("(Click on Austin to start!)")
-                    .foregroundColor(Color.blue)
-                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             }
         }
     }
@@ -47,11 +45,6 @@ struct HomeToolbar: ToolbarContent {
     }
     ToolbarItem(placement: .navigationBarTrailing) {
       Image(systemName: "car")
-    }
-    ToolbarItem(placement: .bottomBar) {
-      Button("Save") {
-        print("delete document")
-      }.buttonStyle(.borderedProminent)
     }
   }
 }
