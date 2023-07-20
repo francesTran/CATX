@@ -20,26 +20,40 @@ struct SecondView: View {
         VStack(spacing: 30.0) {
             Text("What's Tossin' in Austin?")
                 .font(.largeTitle)
-                    .padding()
-                
-                
-                Button(action: {isPresentingHomelessness = true}) {
-                    Text("Homelessness")
-                }
-                NavigationLink(" ", destination: homelessnessView(), isActive: $isPresentingHomelessness)
-                Button(action: {isPresentingEnvironment = true}) {
-                    Text("Environment")
-                }
-                NavigationLink(" ", destination: environmentView(), isActive: $isPresentingEnvironment)
-                Button(action: {isPresentingFoodInsecurity = true}) {
-                    Text("Food Insecurity")
-                }
-                NavigationLink(" ", destination: foodInsecurityView(), isActive: $isPresentingFoodInsecurity)
-                Button(action: {isPresentingLGBTQ = true}) {
-                    Text("LGBTQ")
-                }
-                NavigationLink(" ", destination: lgbtqView(), isActive: $isPresentingLGBTQ)
+                .padding()
+            
+            
+            Button(action: {isPresentingHomelessness = true}) {
+                Text("Homelessness")
             }
+            NavigationLink(" ", destination: homelessnessView(), isActive: $isPresentingHomelessness)
+            Button(action: {isPresentingEnvironment = true}) {
+                Text("Environment")
+            }
+            NavigationLink(" ", destination: environmentView(), isActive: $isPresentingEnvironment)
+            Button(action: {isPresentingFoodInsecurity = true}) {
+                Text("Food Insecurity")
+            }
+            NavigationLink(" ", destination: foodInsecurityView(), isActive: $isPresentingFoodInsecurity)
+            Button(action: {isPresentingLGBTQ = true}) {
+                Text("LGBTQ")
+            }
+            NavigationLink(" ", destination: lgbtqView(), isActive: $isPresentingLGBTQ)
+        }
+//            TabView {
+//                OurMission()
+//                    .tabItem {
+//                        Label("Our Mission", systemImage: "list.bullet")
+//                        Text("Our Mission")
+//                    }
+//
+//                ContactInfo()
+//                    .tabItem {
+//                        Label("Contact Info", systemImage: "gearshape")
+//                        Text("Contact")
+//                    }
+//            }
+            .accentColor(.pink)
             .navigationTitle("Categories")
             .toolbar {
                 HomeToolbar()

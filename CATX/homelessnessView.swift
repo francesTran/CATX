@@ -31,6 +31,7 @@ struct homelessnessView: View {
                         Image("PinRed")
                             .resizable(capInsets: EdgeInsets())
                             .frame(width: 100, height: 100)
+                            .offset(x: 50, y: 15)
                     }
                     NavigationLink(" ", destination: mobileLoavesAndFishes(), isActive: $isPresentingMLAF)
                 }
