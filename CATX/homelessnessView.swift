@@ -40,6 +40,9 @@ struct homelessnessView: View {
                 }
                 .navigationTitle("Homelessness")
                 .accentColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                
+
                 
             }
         }

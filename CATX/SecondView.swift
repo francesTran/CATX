@@ -39,8 +39,9 @@ struct SecondView: View {
                     
                 Button(action: {isPresentingHomelessness = true}) {
                     Text(" Homelessness     ")
+                        .font(.custom("FiraSans-Regular", size: 22))
                         .fontWeight(.heavy)
-                        .background(Color(red: 1.0, green: 0.0, blue: 0.0, opacity: 1.0))
+                        .background(Color(red: 1.0, green: 0.0, blue: 0.4, opacity: 1.0))
                         
                         .foregroundColor(Color.white)
                         .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
@@ -48,6 +49,7 @@ struct SecondView: View {
                 NavigationLink(" ", destination: homelessnessView(), isActive: $isPresentingHomelessness)
                 Button(action: {isPresentingEnvironment = true}) {
                     Text(" Environment    ")
+                        .font(.custom("FiraSans-Regular", size: 22))
                         .fontWeight(.heavy)
                         .foregroundColor(Color.white)
                         .background(/*@START_MENU_TOKEN@*/Color(red: 0.599, green: 0.826, blue: 0.559)/*@END_MENU_TOKEN@*/)
@@ -57,6 +59,7 @@ struct SecondView: View {
                 NavigationLink(" ", destination: environmentView(), isActive: $isPresentingEnvironment)
                 Button(action: {isPresentingFoodInsecurity = true}) {
                     Text(" Food Insecurity       ")
+                        .font(.custom("FiraSans-Regular", size: 22))
                         .fontWeight(.heavy)
                         .foregroundColor(Color.white)
                         .background(/*@START_MENU_TOKEN@*/Color(hue: 0.132, saturation: 0.576, brightness: 0.985)/*@END_MENU_TOKEN@*/)
@@ -66,6 +69,7 @@ struct SecondView: View {
                 NavigationLink(" ", destination: foodInsecurityView(), isActive: $isPresentingFoodInsecurity)
                 Button(action: {isPresentingLGBTQ = true}) {
                     Text(" LGBTQ        ")
+                        .font(.custom("FiraSans-Regular", size: 22))
                         .fontWeight(.heavy)
                         .foregroundColor(Color.white)
                         .background(/*@START_MENU_TOKEN@*/Color(red: 0.586, green: 0.576, blue: 0.826)/*@END_MENU_TOKEN@*/)
@@ -84,6 +88,7 @@ struct SecondView: View {
                 NavigationLink("Contact", destination: ContactInfo(), isActive: $contactInfo)
                 Image(systemName: "list")
             }
+            
             .toolbarColorScheme(.light, for: .navigationBar)
             .navigationBarTitleDisplayMode(.inline)
             .padding(.all)
