@@ -17,19 +17,19 @@ struct SecondView: View {
     @State var contactInfo = false
     var body: some View {
         ZStack {
-            Color(red: (252.0/255), green: (211.0/255), blue: (191.0/255))
+            Color(red: (255.0/255), green: (255.0/255), blue: (224.0/255))
                 .ignoresSafeArea()
             VStack(spacing: 30.0) {
                 Text("Austin needs your help! ")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
-                    .foregroundColor(Color.white)
+                    .foregroundColor(Color(hue: 0.564, saturation: 1.0, brightness: 1.0))
                     .multilineTextAlignment(.center)
             
                 Text("Choose an issue to improve:")
                     .font(.title2)
                     .fontWeight(.black)
-                    .foregroundColor(Color.white)
+                    .foregroundColor(Color(hue: 0.416, saturation: 0.933, brightness: 0.671))
                     .multilineTextAlignment(.center)
                     .padding()
                 Button(action: {isPresentingHomelessness = true}) {
