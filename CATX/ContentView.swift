@@ -13,8 +13,8 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             ZStack{
-                Color(red: (259/255), green: (252.0/255), blue: (224.0/255))
-                    .ignoresSafeArea()
+//                Color(red: (259/255), green: (252.0/255), blue: (224.0/255))
+//                    .ignoresSafeArea()
                 VStack {
                     
                     Button(action: { showNextPage = true }) {
