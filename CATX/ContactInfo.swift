@@ -9,9 +9,20 @@ import SwiftUI
 
 struct ContactInfo: View {
     var body: some View {
-        VStack {
-            Text("Contact Us")
+        ZStack {
+            Color(red: (252.0/255), green: (211.0/255), blue: (191.0/255))
+                .ignoresSafeArea()
+            VStack {
+                Text("Contact Us")
+                    .font(.body)
+                    .fontWeight(.medium)
+                    .foregroundColor(Color.white)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal)
+                
+            }
         }
+    
         .navigationTitle("Contact")
     }
 }

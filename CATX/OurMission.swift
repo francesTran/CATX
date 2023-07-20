@@ -9,8 +9,18 @@ import SwiftUI
 
 struct OurMission: View {
     var body: some View {
-        VStack {
-            Text("Find opportunities to give back to your Austin community with our app CATX, or Change Austin Texas. Explore locations of different organizations that are making a difference near you. CATX connects you to volunteering and donation sites with the push of a button.")
+        ZStack {
+            Color(red: (252.0/255), green: (211.0/255), blue: (191.0/255))
+                .ignoresSafeArea()
+            VStack {
+                Text("Find opportunities to give back to your Austin community with our app CATX, or Change Austin Texas. Explore locations of different organizations that are making a difference near you. CATX connects you to volunteering and donation sites with the push of a button.")
+                    .font(.body)
+                    .fontWeight(.medium)
+                    .foregroundColor(Color.white)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal)
+                
+            }
         }
         .navigationTitle("Our Mission")
     }
