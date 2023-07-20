@@ -17,28 +17,39 @@ struct SecondView: View {
     @State var contactInfo = false
     var body: some View {
         ZStack {
-            Color(red: (255.0/255), green: (200.0/255), blue: (170.0/255))
+            Color(red: (252.0/255), green: (211.0/255), blue: (191.0/255))
                 .ignoresSafeArea()
             VStack(spacing: 30.0) {
                 Text("Austin needs your help! ")
-                    .font(.title)
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
+                    .foregroundColor(Color.white)
+                    .multilineTextAlignment(.center)
+            
                 Text("Choose an issue to improve:")
                     .font(.title2)
+                    .fontWeight(.black)
+                    .foregroundColor(Color.white)
+                    .multilineTextAlignment(.center)
                     .padding()
                 Button(action: {isPresentingHomelessness = true}) {
                     Text("Homelessness")
+                        .fontWeight(.heavy)
                 }
                 NavigationLink(" ", destination: homelessnessView(), isActive: $isPresentingHomelessness)
                 Button(action: {isPresentingEnvironment = true}) {
                     Text("Environment")
+                        .fontWeight(.heavy)
                 }
                 NavigationLink(" ", destination: environmentView(), isActive: $isPresentingEnvironment)
                 Button(action: {isPresentingFoodInsecurity = true}) {
                     Text("Food Insecurity")
+                        .fontWeight(.heavy)
                 }
                 NavigationLink(" ", destination: foodInsecurityView(), isActive: $isPresentingFoodInsecurity)
                 Button(action: {isPresentingLGBTQ = true}) {
                     Text("LGBTQ")
+                        .fontWeight(.heavy)
                 }
                 NavigationLink(" ", destination: lgbtqView(), isActive: $isPresentingLGBTQ)
             }
