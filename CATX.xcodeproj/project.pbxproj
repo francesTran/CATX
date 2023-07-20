@@ -19,6 +19,33 @@
 		BDD06DCD2A686A99006C5F97 /* lgbtqView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD06DCC2A686A99006C5F97 /* lgbtqView.swift */; };
 		BDD06DCF2A688175006C5F97 /* OurMission.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD06DCE2A688175006C5F97 /* OurMission.swift */; };
 		BDD06DD12A688187006C5F97 /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD06DD02A688187006C5F97 /* ContactInfo.swift */; };
+		BDF915372A69B0220051E533 /* ZenLoop-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915362A69B0220051E533 /* ZenLoop-Regular.ttf */; };
+		BDF9153C2A69B4160051E533 /* FontTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF9153B2A69B4160051E533 /* FontTest.swift */; };
+		BDF9153E2A69B6990051E533 /* Oswald-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF9153D2A69B6990051E533 /* Oswald-VariableFont_wght.ttf */; };
+		BDF915452A69B6AC0051E533 /* Oswald-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF9153F2A69B6AC0051E533 /* Oswald-ExtraLight.ttf */; };
+		BDF915462A69B6AC0051E533 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915402A69B6AC0051E533 /* Oswald-Light.ttf */; };
+		BDF915472A69B6AC0051E533 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915412A69B6AC0051E533 /* Oswald-Bold.ttf */; };
+		BDF915482A69B6AC0051E533 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915422A69B6AC0051E533 /* Oswald-Regular.ttf */; };
+		BDF915492A69B6AC0051E533 /* Oswald-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915432A69B6AC0051E533 /* Oswald-Medium.ttf */; };
+		BDF9154A2A69B6AC0051E533 /* Oswald-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915442A69B6AC0051E533 /* Oswald-SemiBold.ttf */; };
+		BDF9155D2A69B6D90051E533 /* FiraSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF9154B2A69B6D90051E533 /* FiraSans-SemiBoldItalic.ttf */; };
+		BDF9155E2A69B6D90051E533 /* FiraSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF9154C2A69B6D90051E533 /* FiraSans-BoldItalic.ttf */; };
+		BDF9155F2A69B6D90051E533 /* FiraSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF9154D2A69B6D90051E533 /* FiraSans-ExtraBold.ttf */; };
+		BDF915602A69B6D90051E533 /* FiraSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF9154E2A69B6D90051E533 /* FiraSans-ExtraLight.ttf */; };
+		BDF915612A69B6D90051E533 /* FiraSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF9154F2A69B6D90051E533 /* FiraSans-ExtraBoldItalic.ttf */; };
+		BDF915622A69B6D90051E533 /* FiraSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915502A69B6D90051E533 /* FiraSans-ThinItalic.ttf */; };
+		BDF915632A69B6D90051E533 /* FiraSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915512A69B6D90051E533 /* FiraSans-ExtraLightItalic.ttf */; };
+		BDF915642A69B6D90051E533 /* FiraSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915522A69B6D90051E533 /* FiraSans-MediumItalic.ttf */; };
+		BDF915652A69B6D90051E533 /* FiraSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915532A69B6D90051E533 /* FiraSans-Thin.ttf */; };
+		BDF915662A69B6D90051E533 /* FiraSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915542A69B6D90051E533 /* FiraSans-Bold.ttf */; };
+		BDF915672A69B6D90051E533 /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915552A69B6D90051E533 /* FiraSans-Regular.ttf */; };
+		BDF915682A69B6D90051E533 /* FiraSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915562A69B6D90051E533 /* FiraSans-BlackItalic.ttf */; };
+		BDF915692A69B6D90051E533 /* FiraSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915572A69B6D90051E533 /* FiraSans-Black.ttf */; };
+		BDF9156A2A69B6D90051E533 /* FiraSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915582A69B6D90051E533 /* FiraSans-Italic.ttf */; };
+		BDF9156B2A69B6D90051E533 /* FiraSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF915592A69B6D90051E533 /* FiraSans-Medium.ttf */; };
+		BDF9156C2A69B6D90051E533 /* FiraSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF9155A2A69B6D90051E533 /* FiraSans-Light.ttf */; };
+		BDF9156D2A69B6D90051E533 /* FiraSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF9155B2A69B6D90051E533 /* FiraSans-LightItalic.ttf */; };
+		BDF9156E2A69B6D90051E533 /* FiraSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF9155C2A69B6D90051E533 /* FiraSans-SemiBold.ttf */; };
 		BDFE79782A68424700057068 /* mobileLoavesAndFishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE79772A68424700057068 /* mobileLoavesAndFishes.swift */; };
 		BDFE797A2A68436200057068 /* rainforestPartnership.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE79792A68436200057068 /* rainforestPartnership.swift */; };
 		BDFE797C2A68444D00057068 /* keepAustinBeautiful.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE797B2A68444D00057068 /* keepAustinBeautiful.swift */; };
@@ -42,6 +69,34 @@
 		BDD06DCC2A686A99006C5F97 /* lgbtqView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lgbtqView.swift; sourceTree = "<group>"; };
 		BDD06DCE2A688175006C5F97 /* OurMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurMission.swift; sourceTree = "<group>"; };
 		BDD06DD02A688187006C5F97 /* ContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
+		BDF915362A69B0220051E533 /* ZenLoop-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenLoop-Regular.ttf"; sourceTree = "<group>"; };
+		BDF915382A69B1250051E533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BDF9153B2A69B4160051E533 /* FontTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTest.swift; sourceTree = "<group>"; };
+		BDF9153D2A69B6990051E533 /* Oswald-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		BDF9153F2A69B6AC0051E533 /* Oswald-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-ExtraLight.ttf"; sourceTree = "<group>"; };
+		BDF915402A69B6AC0051E533 /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
+		BDF915412A69B6AC0051E533 /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		BDF915422A69B6AC0051E533 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		BDF915432A69B6AC0051E533 /* Oswald-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Medium.ttf"; sourceTree = "<group>"; };
+		BDF915442A69B6AC0051E533 /* Oswald-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-SemiBold.ttf"; sourceTree = "<group>"; };
+		BDF9154B2A69B6D90051E533 /* FiraSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		BDF9154C2A69B6D90051E533 /* FiraSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BDF9154D2A69B6D90051E533 /* FiraSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		BDF9154E2A69B6D90051E533 /* FiraSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		BDF9154F2A69B6D90051E533 /* FiraSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		BDF915502A69B6D90051E533 /* FiraSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		BDF915512A69B6D90051E533 /* FiraSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		BDF915522A69B6D90051E533 /* FiraSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		BDF915532A69B6D90051E533 /* FiraSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Thin.ttf"; sourceTree = "<group>"; };
+		BDF915542A69B6D90051E533 /* FiraSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Bold.ttf"; sourceTree = "<group>"; };
+		BDF915552A69B6D90051E533 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
+		BDF915562A69B6D90051E533 /* FiraSans-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		BDF915572A69B6D90051E533 /* FiraSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Black.ttf"; sourceTree = "<group>"; };
+		BDF915582A69B6D90051E533 /* FiraSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Italic.ttf"; sourceTree = "<group>"; };
+		BDF915592A69B6D90051E533 /* FiraSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.ttf"; sourceTree = "<group>"; };
+		BDF9155A2A69B6D90051E533 /* FiraSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Light.ttf"; sourceTree = "<group>"; };
+		BDF9155B2A69B6D90051E533 /* FiraSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		BDF9155C2A69B6D90051E533 /* FiraSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		BDFE79772A68424700057068 /* mobileLoavesAndFishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileLoavesAndFishes.swift; sourceTree = "<group>"; };
 		BDFE79792A68436200057068 /* rainforestPartnership.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainforestPartnership.swift; sourceTree = "<group>"; };
 		BDFE797B2A68444D00057068 /* keepAustinBeautiful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keepAustinBeautiful.swift; sourceTree = "<group>"; };
@@ -81,6 +136,8 @@
 		BD8783DB2A66D67F00117111 /* CATX */ = {
 			isa = PBXGroup;
 			children = (
+				BDF915382A69B1250051E533 /* Info.plist */,
+				BDF915342A69AFF50051E533 /* Font */,
 				BD8783DC2A66D67F00117111 /* CATXApp.swift */,
 				BD8783DE2A66D67F00117111 /* ContentView.swift */,
 				BD2D3B402A6721C2001F3A20 /* SecondView.swift */,
@@ -110,6 +167,40 @@
 				BD8783E32A66D68200117111 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDF915342A69AFF50051E533 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BDF915572A69B6D90051E533 /* FiraSans-Black.ttf */,
+				BDF915562A69B6D90051E533 /* FiraSans-BlackItalic.ttf */,
+				BDF915542A69B6D90051E533 /* FiraSans-Bold.ttf */,
+				BDF9154C2A69B6D90051E533 /* FiraSans-BoldItalic.ttf */,
+				BDF9154D2A69B6D90051E533 /* FiraSans-ExtraBold.ttf */,
+				BDF9154F2A69B6D90051E533 /* FiraSans-ExtraBoldItalic.ttf */,
+				BDF9154E2A69B6D90051E533 /* FiraSans-ExtraLight.ttf */,
+				BDF915512A69B6D90051E533 /* FiraSans-ExtraLightItalic.ttf */,
+				BDF915582A69B6D90051E533 /* FiraSans-Italic.ttf */,
+				BDF9155A2A69B6D90051E533 /* FiraSans-Light.ttf */,
+				BDF9155B2A69B6D90051E533 /* FiraSans-LightItalic.ttf */,
+				BDF915592A69B6D90051E533 /* FiraSans-Medium.ttf */,
+				BDF915522A69B6D90051E533 /* FiraSans-MediumItalic.ttf */,
+				BDF915552A69B6D90051E533 /* FiraSans-Regular.ttf */,
+				BDF9155C2A69B6D90051E533 /* FiraSans-SemiBold.ttf */,
+				BDF9154B2A69B6D90051E533 /* FiraSans-SemiBoldItalic.ttf */,
+				BDF915532A69B6D90051E533 /* FiraSans-Thin.ttf */,
+				BDF915502A69B6D90051E533 /* FiraSans-ThinItalic.ttf */,
+				BDF915412A69B6AC0051E533 /* Oswald-Bold.ttf */,
+				BDF9153F2A69B6AC0051E533 /* Oswald-ExtraLight.ttf */,
+				BDF915402A69B6AC0051E533 /* Oswald-Light.ttf */,
+				BDF915432A69B6AC0051E533 /* Oswald-Medium.ttf */,
+				BDF915422A69B6AC0051E533 /* Oswald-Regular.ttf */,
+				BDF915442A69B6AC0051E533 /* Oswald-SemiBold.ttf */,
+				BDF9153D2A69B6990051E533 /* Oswald-VariableFont_wght.ttf */,
+				BDF9153B2A69B4160051E533 /* FontTest.swift */,
+				BDF915362A69B0220051E533 /* ZenLoop-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,8 +261,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF915622A69B6D90051E533 /* FiraSans-ThinItalic.ttf in Resources */,
+				BDF915632A69B6D90051E533 /* FiraSans-ExtraLightItalic.ttf in Resources */,
 				BD8783E42A66D68200117111 /* Preview Assets.xcassets in Resources */,
+				BDF915602A69B6D90051E533 /* FiraSans-ExtraLight.ttf in Resources */,
+				BDF915642A69B6D90051E533 /* FiraSans-MediumItalic.ttf in Resources */,
+				BDF9154A2A69B6AC0051E533 /* Oswald-SemiBold.ttf in Resources */,
+				BDF9156C2A69B6D90051E533 /* FiraSans-Light.ttf in Resources */,
+				BDF915452A69B6AC0051E533 /* Oswald-ExtraLight.ttf in Resources */,
+				BDF9156E2A69B6D90051E533 /* FiraSans-SemiBold.ttf in Resources */,
+				BDF915692A69B6D90051E533 /* FiraSans-Black.ttf in Resources */,
+				BDF9153E2A69B6990051E533 /* Oswald-VariableFont_wght.ttf in Resources */,
+				BDF9156A2A69B6D90051E533 /* FiraSans-Italic.ttf in Resources */,
+				BDF915612A69B6D90051E533 /* FiraSans-ExtraBoldItalic.ttf in Resources */,
+				BDF915462A69B6AC0051E533 /* Oswald-Light.ttf in Resources */,
+				BDF9155F2A69B6D90051E533 /* FiraSans-ExtraBold.ttf in Resources */,
 				BD8783E12A66D68200117111 /* Assets.xcassets in Resources */,
+				BDF9155D2A69B6D90051E533 /* FiraSans-SemiBoldItalic.ttf in Resources */,
+				BDF915652A69B6D90051E533 /* FiraSans-Thin.ttf in Resources */,
+				BDF915672A69B6D90051E533 /* FiraSans-Regular.ttf in Resources */,
+				BDF915662A69B6D90051E533 /* FiraSans-Bold.ttf in Resources */,
+				BDF915472A69B6AC0051E533 /* Oswald-Bold.ttf in Resources */,
+				BDF915682A69B6D90051E533 /* FiraSans-BlackItalic.ttf in Resources */,
+				BDF915492A69B6AC0051E533 /* Oswald-Medium.ttf in Resources */,
+				BDF915372A69B0220051E533 /* ZenLoop-Regular.ttf in Resources */,
+				BDF9156D2A69B6D90051E533 /* FiraSans-LightItalic.ttf in Resources */,
+				BDF9156B2A69B6D90051E533 /* FiraSans-Medium.ttf in Resources */,
+				BDF9155E2A69B6D90051E533 /* FiraSans-BoldItalic.ttf in Resources */,
+				BDF915482A69B6AC0051E533 /* Oswald-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +313,7 @@
 				BD8783DF2A66D67F00117111 /* ContentView.swift in Sources */,
 				BDD06DD12A688187006C5F97 /* ContactInfo.swift in Sources */,
 				BDFE797E2A6846E100057068 /* keepAustinFed.swift in Sources */,
+				BDF9153C2A69B4160051E533 /* FontTest.swift in Sources */,
 				BDD06DC52A6869C4006C5F97 /* homelessnessView.swift in Sources */,
 				BD8783DD2A66D67F00117111 /* CATXApp.swift in Sources */,
 				BDFE79802A68473700057068 /* centralTexasFoodBank.swift in Sources */,
@@ -329,6 +447,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CATX/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CATX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -357,6 +476,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CATX/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CATX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

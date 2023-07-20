@@ -16,7 +16,6 @@ struct ContentView: View {
 //                Color(red: (259/255), green: (252.0/255), blue: (224.0/255))
 //                    .ignoresSafeArea()
                 VStack {
-                    
                     Button(action: { showNextPage = true }) {
                     label: do {
                         Image("CATX2")

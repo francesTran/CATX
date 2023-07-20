@@ -9,22 +9,51 @@ import SwiftUI
 
 struct caritasOfAustin: View {
     var body: some View {
-        ScrollView {
-            Text("Caritas of Austin")
-                .padding(.all)
-            Text("About Us")
-                .padding(.all)
-            Text("Caritas of Austin believes that when every person has a stable place to call home, they can realize their full potential and contribute to our community. This organization builds wellbeing by making sure that people have a safe home, access to healthy groceries, jobs that provide a reliable living wage, and educational opportunities to learn life skills. Caritas of Austin is focused on building wellbeing and ending homelessness to create a more vibrant Austin and stronger community for everyone.")
-            Text("Contact Info")
-                .padding(.all)
-            Text("Get Involved!")
-                .padding(.all)
-            Text("Volunteer")
-                .padding(.all)
-            Text("Events")
-                .padding(.all)
-            Text("Donate")
-                .padding(.all)
+        ZStack{
+            Color(red: (252.0/255), green: (211.0/255), blue: (191.0/255))
+                .ignoresSafeArea()
+         ScrollView {
+                Text("Caritas of Austin")
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
+                    .foregroundColor(Color(red: 1.0, green: 0.0, blue: 0.0, opacity: 1.0))
+                    .lineLimit(nil)
+                    .padding(.all)
+                Text("About Us")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.white)
+                    .padding(.all)
+                Text(" Caritas of Austin is focused on building wellbeing and ending homelessness to create a more vibrant Austin and stronger community for everyone.")
+                    .padding(.horizontal)
+                Text("Website:")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.white)
+                    .padding(.all)
+                Text("[Caritas of Austin](https://caritasofaustin.org/what-we-do/ending-homelessness-in-austin/)")
+                
+                Text("Volunteer:")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.white)
+                    .padding(.all)
+                Text("[Volunteer events](https://caritasofaustin.org/get-involved/volunteer)")
+            
+                
+                Text("Contact info:")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.white)
+                    .padding(.all)
+                Text("[611 Neches Street 9027 Northgate Boulevard](https://goo.gl/maps/WcWGB518jk3aGUqT9)")
+                Text("512.479.4610")
+                
+                
+                
+               
+                
+            }
         }
     }
 }
