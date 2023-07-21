@@ -13,8 +13,8 @@ struct environmentView: View {
     var body: some View {
         NavigationStack{
             ZStack {
-                Color(red: (252.0/255), green: (211.0/255), blue: (191.0/255))
-                    .ignoresSafeArea()
+                //Color(red: (252.0/255), green: (211.0/255), blue: (191.0/255))
+                    //.ignoresSafeArea()
                 ViewThatFits(in: .vertical) {
                     Image("AustinMap")
                         .resizable(resizingMode: .stretch)
